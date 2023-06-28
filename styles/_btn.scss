@@ -1,0 +1,14 @@
+.btn {
+  position: relative;
+  left: 95px;
+  background-color: $color-blue;
+  color: $color-white;
+
+  &:hover {
+    animation-name: btn;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+}

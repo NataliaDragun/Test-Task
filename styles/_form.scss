@@ -1,0 +1,54 @@
+.container {
+  @include flex();
+
+ border: 1px solid $color-black;
+
+}
+
+.sign {
+  width: 138px;
+  background-color: $color-blue;
+
+  &__title {
+    position: absolute;
+    top: 319px;
+    transform: rotate(-90deg);
+
+    font-size: $font-49;
+    color: $color-white;
+  }
+}
+
+.form {
+  padding: $p-2-5;
+
+  &-control {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+  }
+
+  &-check {
+    margin-bottom: 0.4rem;
+  }
+
+  &__subtitle {
+    height: 26px;
+
+    font-size: $font-22;
+  }
+
+  &__description {
+    height: 16px;
+    padding-bottom: $p-2-5;
+
+    font-size: $font-14;
+  }
+}
+
+.gender {
+  border-bottom: 1px solid #ced4da;
+
+  &-title {
+    padding-left: 0 !important; 
+  }
+}

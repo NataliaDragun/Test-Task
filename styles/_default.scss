@@ -1,0 +1,32 @@
+html, body {
+  box-sizing: border-box;
+  
+  font-family: $font-family;
+}
+
+.container {
+  width: 665px;
+  padding: 0;
+  @include container(); 
+}
+
+.col {
+  padding-bottom: $p-1-5;
+}
+
+.subtitle {
+  display: inline-block;
+}
+
+.link {
+  @include transition();
+
+  text-decoration: underline;
+}
+
+.upper-letter,
+.low-letter {
+  display: none;
+  
+  color: $color-red;
+}

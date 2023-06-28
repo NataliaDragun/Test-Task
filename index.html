@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="sign">
+      <h1 class="sign__title">Sign up</h1>
+    </div>
+
+    <div class="form">
+      <h2 class="form__subtitle">New user?</h2>
+      <p class="form__description">Use the form below to create your account.</p>
+      
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <label for="fname">First Name</label>
+            <input type="text" class="form-control" id="fname" placeholder="" value="Alice">
+          </div>
+          <div class="col">
+            <label for="lname">Last Name</label>
+            <input type="text" class="form-control" id="lname" placeholder="" value="Miller">
+          </div>
+        </div>
+
+        <div class="form-row">
+        <div class="col">
+          <label for="nationality">Nationality</label>
+          <input type="text" class="form-control" id="nationality" placeholder="" value="American">
+        </div>
+        <div class="col">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="">
+        </div>
+        </div>
+
+        <div class="form-row">
+          <div class="col">
+            <label for="birth">Date of Birth</label>
+            <input type="date" class="form-control" id="birth">
+          </div>
+          <div class="col">
+            <h3 class="col-form-label col-sm-2 pt-0 gender-title">Gender</h3>
+            <div class="gender">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="male">
+                <label class="form-check-label" for="male">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="female">
+                <label class="form-check-label" for="female">Female</label>
+              </div>
+            </div>    
+          </div>
+        </div>
+        
+        <div class="form-row">
+          <div class="col">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="">
+            <p class="upper-letter "id="upperLetter">Необходима заглавная буква</p>
+            <p class="low-letter "id="lowLetter">Необходима строчная буква</p>
+          </div>
+          <div class="col">
+            <label for="confpassword">Confirm Password</label>
+            <input type="password" class="form-control" id="confpassword" placeholder="">
+          </div>
+        </div> 
+      </form>
+  
+      <h2 class="subtitle">Have an account?</h2>
+      <a href="#" class="link">Login</a>
+      <button type="button" class="btn">Complete Signup</button>
+
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

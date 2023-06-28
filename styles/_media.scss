@@ -1,0 +1,48 @@
+@media screen and (max-width: 767px) and (min-width: 576px) {
+  .container {
+    width: 576px;
+  }
+
+  .sign {
+    width: 50px;
+
+    &__title {
+      padding-bottom: $p-1;
+
+      font-size: $font-22;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sign {
+    display: none;
+  }
+
+  .form {
+    &__subtitle {
+      font-weight: $font-w-700;
+    }
+
+    &__description {
+      margin-top: $m-0-5;
+
+      font-weight: $font-w-500;
+    }
+  }
+
+  .form-row {
+    width: 100%;
+    display: block;
+  }
+
+  .gender-title {
+    padding-left: 0 !important;
+  }
+
+  .btn {
+    position: static;
+    display: block;
+    margin-top: $m-1-5;
+  }
+}
